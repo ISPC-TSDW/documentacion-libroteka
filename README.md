@@ -258,11 +258,11 @@ Desde la app móvil, los usuarios pueden ser redirigidos a la web para realizar 
 
 ## 📌 Organización del Proyecto
 
-- Historias de Usuario: Ver aquí
+- Historias de Usuario: [Ver aquí](https://github.com/ISPC-TSDW/libroteka-documentacion/wiki/Historias-de-Usuario)
 
-- Ceremonias Scrum: Ver aquí
+- Ceremonias Scrum: [Ver aquí](https://github.com/ISPC-TSDW/libroteka-documentacion/wiki/Registro-de-Ceremonias)
 
-- Formulario IEEE830: Ver aquí
+- Formulario IEEE830: [Ver aquí](https://docs.google.com/document/d/1fXJetiziKpc_0j_ZENuKHa4nF136qiKo/edit)
 
 
 ---
@@ -276,14 +276,13 @@ Desde la app móvil, los usuarios pueden ser redirigidos a la web para realizar 
 
 ## 🧪 Instrucciones para Desarrolladores
 
-Clonar Proyecto
+## 🖥 Versión Web
+
+### Frontend
 
 ```bash
-  git clone https://github.com/ISPC-TSDW/Libroteka.app.git
+  git clone https://github.com/ISPC-TSDW/libroteka-frontend.git
 ```
-
-## 🖥 Versión Web
-### Frontend
 
 ```bash
   cd Frontend
@@ -292,6 +291,10 @@ Clonar Proyecto
 ```
 
 ### Backend
+
+```bash
+  git clone https://github.com/ISPC-TSDW/libroteka-backend.git
+```
 
 ```bash
   cd Backend/Libroteka
@@ -304,19 +307,22 @@ Clonar Proyecto
   python manage.py runservere 
 ```
 
-### Docker (Opcional)
+### Docker
 
 ```bash
   cd Frontend
   npm install
   cd ..
-  sudo docker compose up --build
+  docker compose up --build
 ```
 
 ## 📱 Versión Móvil
 
+```bash
+  git clone https://github.com/ISPC-TSDW/libroteka-mobile.git
+```
+
 ```bash 
-  git clone https://github.com/ISPC-TSDW/Libroteka.app.git
   cd Backend/Libroteka
   # Activar entorno virtual
   # Windows:
